@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: montserrat;
+}
+.container{
+    width: 50%;
+    height: 60%;
+    background-color: crimson;
+    position: relative;
+    top: 25%;
+    left:25%;
+    display: flex;
+    justify-content: center;
+}
+.container>form{
+   background-color: white;
+   width: 40%;
+   height: 80%;
+   margin-top: 30px;
+   text-align: center;
+
+}
+form>h3{
+    margin-top: 20px;
+}
+form>i{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: montserrat;
+
+}
+form>textarea{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-family: montserrat;
+
+}
+form>input{
+    margin-top: 10px;
+    width: 200px;
+    font-family: montserrat;
+
+}
+form>button{
+    width: 150px;
+    padding: 5px 0px;
+    margin-top: 10px;
+    background-color: crimson;
+    color: white;
+    font-family: montserrat;
+
+}
